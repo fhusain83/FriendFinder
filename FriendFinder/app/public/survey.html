@@ -1,0 +1,138 @@
+<DocType Html>
+
+<Head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascripts/friend.js"></script>
+</Head>
+<Body>
+<h1>Survey Questions</h1>
+<hr>
+<form>
+<h4>Name(Required)</h4>
+<input class="user-info" type="text" id="name" style="width:80%;"/>
+<h4>Link to Photo Image</h4>
+<input class="user-info" type="text" id="photo" style="width:80%;"/>
+<hr>
+
+<h3><strong>Question 1</strong></h3>
+<h4>You are into looks big time</h4>
+<select class="user-choice" id="q1">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>	
+</select>
+
+<h3><strong>Question 2</strong></h3>
+<h4>You really like to take care of yourself</h4>
+<select class="user-choice" id="q2">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>		
+</select>
+
+<h3><strong>Question 3</strong></h3>
+<h4>You like material possesions</h4>
+<select class="user-choice" id="q3">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>	
+</select>
+
+<h3><strong>Question 4</strong></h3>
+<h4>You are a dreamer</h4>
+<select class="user-choice" id="q4">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>	
+</select>
+
+<h3><strong>Question 5</strong></h3>
+<h4>You are very popular with members of teh opposite gender</h4>
+<select class="user-choice" id="q5">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>		
+</select>
+
+<h3><strong>Question 6</strong></h3>
+<h4>You like adventure</h4>
+<select class="user-choice" id="q6">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>	
+</select>
+
+<h3><strong>Question 7</strong></h3>
+<h4>You believe in charity</h4>
+<select class="user-choice" id="q7">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>	
+</select>
+
+<h3><strong>Question 8</strong></h3>
+<h4>You like to travel</h4>
+<select class="user-choice" id="q8">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>	
+</select>
+
+<h3><strong>Question 9</strong></h3>
+<h4>You are from a big family</h4>
+<select class="user-choice" id="q9">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>	
+</select>
+
+<h3><strong>Question 10</strong></h3>
+<h4>You are a people person</h4>
+<select class="user-choice" id="q10">
+<option value="1">1 (Strongly Disagree)</option>	
+<option value="2">2</option>	
+<option value="3">3</option>	
+<option value="4">4</option>	
+<option value="5">5 (Strongly Agree)</option>	
+</select>
+<hr>
+<button class="btn-primary" type="submit" style="width:80%;margin-left:60px;" id="Submit">Submit</button>
+</form>
+
+
+<div id="friendmodal" class="modal fade" role="dialog">
+<div class="modal-content">
+	 <div class="modal-header">
+        <h4 class="modal-title">Your Friend Match</h4>
+      </div>
+      <div class="modal-body">
+        <h2 id="FriendName"></h2>
+        <img id="FriendImg" src="" img=""></img>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+</div>	
+</div>
+
+</Body>
+</Html>
